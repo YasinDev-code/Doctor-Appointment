@@ -56,6 +56,8 @@
   font-display: swap;
 }
 
+@variant child (& > *);
+
 @theme {
   --font-sans: "Vazirmatn", sans-serif;
 
