@@ -21,6 +21,7 @@ export default function Header({ isAuthenticated }: { isAuthenticated: boolean }
                         <div className="w-4 h-0.5 bg-black"></div>
                         <div className={`${isMobileMenuOpen ? "w-2.5 self-center": "w-4"} h-0.5 bg-black`}></div>
                     </div>
+                    {/* logo */}
                     <Image className="self-end" src="/Logo.jpg" alt="logo" width={30.63} height={28} />
                     <p className="text-2xl self-center">دکتر <span className="text-blue-500">رزور</span></p>
                 </div>
